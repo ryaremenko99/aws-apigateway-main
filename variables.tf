@@ -1,11 +1,11 @@
 variable "api_gateway_custom_domain" {
   description = "Domain Name for API Gateway to use"
-  default     = "astahov.net"
+  default     = "suttyread.link"
 }
 
 variable "api_gateway_custom_domain_certificate_arn" {
   description = "Certificate ARN which cover [api_gateway_custom_domain]"
-  default     = "arn:aws:acm:us-west-2:11111111111:certificate/222222-44444-55555-667-45653333"
+  default     = "arn:aws:acm:us-east-1:507712975925:certificate/44282565-ee48-423e-9e37-2184bd8c3cb7"
 }
 
 variable "tags" {
